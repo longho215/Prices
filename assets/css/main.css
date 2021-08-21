@@ -374,6 +374,21 @@
     display: none;
 }
 
+.nav_overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.1s;
+}
+
+.nav__input:checked ~ .nav_overlay {
+    display: block;
+}
+
 .nav__mobile {
     position: fixed;
     top: 0;
