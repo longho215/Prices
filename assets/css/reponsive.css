@@ -29,6 +29,14 @@
     .nav__bars-btn {
         display: block;
     }
+
+    .nav__mobile {
+        display: block;
+    }
+
+    .nav__input:checked ~ .nav_overlay {
+        display: block;
+    }
 }
 
 /* Tablet */

@@ -385,9 +385,7 @@
     animation: fadeIn linear 0.1s;
 }
 
-.nav__input:checked ~ .nav_overlay {
-    display: block;
-}
+
 
 .nav__mobile {
     position: fixed;
@@ -403,6 +401,7 @@
     transform: translateX(100%);
     opacity: 0;
     transition: transform ease 0.8s, opacity ease 0.8s;
+    display: none;
 }
 
 .nav__input:checked ~ .nav__mobile {
@@ -456,6 +455,7 @@
 
 .nav__mobile-item__small {
    padding: 0 20px;
+   
 }
 
 .nav__mobile-item__small a {
